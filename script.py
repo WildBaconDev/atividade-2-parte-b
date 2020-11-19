@@ -4,6 +4,7 @@ import numpy as np
 
 cap = cv2.VideoCapture(0)
 
+# Removi a foto para subir no git kkk
 known_image = face_recognition.load_image_file("Davi.jpg")
 known_encoding = face_recognition.face_encodings(known_image)[0]
 class_name = "Davi"
